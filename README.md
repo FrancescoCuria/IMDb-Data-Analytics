@@ -13,12 +13,12 @@ This repository contains a comprehensive Data Mining pipeline based on a subset 
 
 ### 2. Unsupervised Learning (Clustering)
 Segmented the IMDb titles based on structural similarities using various algorithms:
-* K-Means & Bisecting K-Means
+* K-Means & Bisecting K-Mean
 * DBSCAN (Density-based spatial clustering)
 * Hierarchical Clustering
 
 ### 3. Predictive Modeling (Classification & Regression)
-* Built supervised models (Binary/Multiclass Classification) to categorize titles into target classes.
+* Built supervised models (KNN, Naive Bayes Classifier and Decision Trees for Binary/Multiclass Classification) to categorize titles into target classes.
 * Developed Multivariate Regression models to predict continuous variables such as rating counts.
 
 ### 4. Pattern & Association Rule Mining
@@ -30,6 +30,7 @@ Segmented the IMDb titles based on structural similarities using various algorit
 * **Data Processing & Transformation**: Pandas, NumPy
 * **Machine Learning**: Scikit-Learn
 * **Data Visualization**: Matplotlib, Seaborn
+
 
 
 
